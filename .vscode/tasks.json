@@ -1,0 +1,22 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+	  {
+		"label": "build",
+		"type": "shell",
+		"command": "/usr/bin/clang++",
+		"args": [
+		  "-std=c++23",
+		  "-g",
+		  "/Users/darkness/Documents/GitHub/CPP-folder-2/coulombs_law.cpp",
+		  "-o",
+		  "/Users/darkness/Documents/GitHub/CPP-folder-2/coulombs_law"
+		],
+		"group": {
+		  "kind": "build",
+		  "isDefault": true
+		},
+		"problemMatcher": ["$gcc"]
+	  }
+	]
+  }
