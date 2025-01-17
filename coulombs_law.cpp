@@ -21,7 +21,7 @@ double fy(double f_net, double dx, double dy) {
     return f_net * dy / distance(dx, dy);
 }
 
-int main() {
+int coulomb() {
     cout << scientific << setprecision(3);
 
     double q1, q2, q3, dx2, dy2, dx3, dy3;
