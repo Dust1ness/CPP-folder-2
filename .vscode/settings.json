@@ -4,6 +4,7 @@
         "iostream": "cpp",
         "iomanip": "cpp",
         "ios": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "electric_field_2": "cpp"
     }
 }
